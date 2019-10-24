@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[SeatTable]
+(
+	[Id] INT NOT NULL IDENTITY(243, 1),
+    [SeatNumber] NVARCHAR(50) NOT NULL,
+	[FlightNumber] NVARCHAR(50) NOT NULL, 
+    [Username] NVARCHAR(50) NOT NULL, 
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+)

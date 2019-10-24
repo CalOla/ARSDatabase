@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="27494f33-1a2b-4057-b503-5a90dcea7d66" ChangeDateTime="10/17/2019 12:07:08">
+    <Property Name="ElementName" Value="[dbo].[Administrators].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Administrators]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Firstname" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cbd905c6-e7b6-4c24-8027-27e6d1697a2a" ChangeDateTime="10/17/2019 12:12:33">
+    <Property Name="ElementName" Value="[dbo].[Administrators]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[AdministratorsTable]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7bf0d14d-378f-4be3-8016-86a064592abf" ChangeDateTime="10/17/2019 12:56:33">
+    <Property Name="ElementName" Value="[dbo].[AdministratorsTable].[Password]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AdministratorsTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserPassword" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="052ebdc3-b1f5-432d-a2fb-ab409acd6d0d" ChangeDateTime="10/17/2019 13:01:52">
+    <Property Name="ElementName" Value="[dbo].[AdministratorsView]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[UserView]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b28877d9-6a43-4573-8f3b-30818377ffab" ChangeDateTime="10/17/2019 13:02:26">
+    <Property Name="ElementName" Value="[dbo].[AdministratorsTable]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[UserTable]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="768c9443-5fc5-4aec-a759-805a17d0cd6c" ChangeDateTime="10/22/2019 12:49:36">
+    <Property Name="ElementName" Value="[dbo].[FlightTable].[Departure Date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FlightTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DepartureDate" />
+  </Operation>
+</Operations>
